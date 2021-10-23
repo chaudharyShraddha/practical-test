@@ -1,0 +1,163 @@
+body {
+  width: 100% !important;
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.navbar {
+  display: block;
+  background-color: rgb(68, 59, 68);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+.navbar-title {
+  color: #e0e0e0;
+  margin-left: 20px;
+}
+.logout-text {
+  cursor: pointer;
+  margin-right: 30px;
+  margin-left: auto;
+}
+.container {
+  margin: 30px;
+}
+.inputs {
+  margin-bottom: 20px !important;
+}
+.error-color {
+  color: red !important;
+}
+.light-color {
+  color: #160033 !important;
+}
+.loader {
+  position: absolute !important;
+  top: 50% !important;
+  right: 50% !important;
+  z-index: 999 !important;
+}
+.form-label {
+  font-size: 14px !important;
+  line-height: 18px !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  margin-bottom: 10px;
+}
+.dashboard-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.table-header {
+  background-color: black !important;
+}
+.table-cell {
+  color: white !important;
+  font-size: 18px !important;
+}
+.back-icon {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: black;
+}
+.input-margin {
+  padding-right: 10px !important;
+}
+.btn-text {
+  color: black !important;
+}
+.leaveModal {
+  width: 60%;
+  margin: auto !important;
+}
+.leave-heading {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(22, 0, 51);
+  color: white;
+  padding: 10px;
+}
+.head-section {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.modal_cross {
+  cursor: pointer;
+}
+.modal_body {
+  background-color: white;
+  text-align: left;
+  width: 90% !important;
+  height: auto;
+  margin: 30px auto;
+}
+.leave-body{
+  width: auto;
+  height: auto;
+  position: relative;
+  padding: 20px;
+}
+.loader-size{
+  width: 25px !important;
+  height: 25px !important;
+}
+.emp-info li{
+  margin-bottom: 10px;
+}
+.employee-info {
+  width: 250px;
+  height: auto;
+  background-color: #f6f6f6;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+.employee-info-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(221, 220, 220);
+}
+.employee-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: 5px;
+  margin-top: 15px;
+}
+.total-leave{
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  border-top: 1px solid rgb(151, 150, 150);
+  padding-top: 10px;
+  line-height: 25px;
+}
+.leaves-container{
+  height: 200px;
+  overflow-y: auto;
+}
+.loader123{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earned-salary{
+  font-size: 20px;
+  font-weight: 600;
+}
+.salary-view{
+  color: rgb(152, 60, 175);
+}
